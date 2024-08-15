@@ -7,13 +7,13 @@ use Illuminate\Support\ServiceProvider;
 class AppServiceProvider extends ServiceProvider
 {
     /**
-     * Register any application services.
+     * Register services.
      *
      * @return void
      */
     public function register()
     {
-        //
+        // Remove custom binding logic for UrlGenerator and Request
     }
 
     /**

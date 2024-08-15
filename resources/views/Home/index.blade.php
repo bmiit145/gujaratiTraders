@@ -1,17 +1,7 @@
-
-
-
-
 @extends('header-footer')
 
 @section('content')
-
-
-
-
-
-<style>
-
+    <style>
         #joinFormSuccess {
 
             display: none;
@@ -1348,717 +1338,781 @@
 
 
 
-            @media screen and (max-width:1024px) {
+        @media screen and (max-width:1024px) {
 
 
 
-                .slider-buttons-main {
+            .slider-buttons-main {
 
-                    top: 40%;
+                top: 40%;
 
-                    left: -0% !important;
-
-                }
-
-
-
-                .slider-buttons-main-2 {
-
-                    top: 40%;
-
-                    right: -0% !important;
-
-                }
-
-
-
-                .custom-next-2 {
-
-                    background-color: #0C9146;
-
-                    border-radius: 50%;
-
-                    padding: 3px !important;
-
-                    display: flex;
-
-                    justify-content: center;
-
-                    align-items: center;
-
-                    border: none;
-
-                    margin-left: auto;
-
-                }
-
-
-
-                .custom-prev-2 {
-
-                    background-color: #0C9146;
-
-                    border-radius: 50%;
-
-                    padding: 3px;
-
-                    display: flex;
-
-                    justify-content: center;
-
-                    align-items: center;
-
-                    border: none;
-
-                }
-
-
-
-                .custom-next {
-
-                    background-color: #0C9146;
-
-                    border-radius: 50%;
-
-                    padding: 3px;
-
-                    display: flex;
-
-                    justify-content: center;
-
-                    align-items: center;
-
-                    border: none;
-
-                }
-
-
-
-                .custom-prev {
-
-                    background-color: #0C9146;
-
-                    border-radius: 50%;
-
-                    padding: 3px;
-
-                    display: flex;
-
-                    justify-content: center;
-
-                    align-items: center;
-
-                    border: none;
-
-                }
+                left: -0% !important;
 
             }
 
 
 
-            @media screen and (max-width:1023px) {
+            .slider-buttons-main-2 {
 
-                .slider-buttons-main {
+                top: 40%;
 
-                    top: 40%;
-
-                    left: -2%;
-
-                }
-
-
-
-                .slider-buttons-main-2 {
-
-                    top: 40%;
-
-                    right: -2%;
-
-                }
+                right: -0% !important;
 
             }
 
 
 
-            @media screen and (max-width:992px) {
+            .custom-next-2 {
 
-                .slider-buttons-main {
+                background-color: #0C9146;
 
-                    top: 40%;
+                border-radius: 50%;
 
-                    left: -4%;
+                padding: 3px !important;
 
-                    display: none !important;
+                display: flex;
 
-                }
+                justify-content: center;
 
+                align-items: center;
 
+                border: none;
 
-                .slider-buttons-main-2 {
-
-                    top: 40%;
-
-                    right: -4%;
-
-                    display: none !important;
-
-                }
+                margin-left: auto;
 
             }
 
 
 
-            .register-now-about-btn:active {
+            .custom-prev-2 {
+
+                background-color: #0C9146;
+
+                border-radius: 50%;
+
+                padding: 3px;
+
+                display: flex;
+
+                justify-content: center;
+
+                align-items: center;
+
+                border: none;
+
+            }
+
+
+
+            .custom-next {
+
+                background-color: #0C9146;
+
+                border-radius: 50%;
+
+                padding: 3px;
+
+                display: flex;
+
+                justify-content: center;
+
+                align-items: center;
+
+                border: none;
+
+            }
+
+
+
+            .custom-prev {
+
+                background-color: #0C9146;
+
+                border-radius: 50%;
+
+                padding: 3px;
+
+                display: flex;
+
+                justify-content: center;
+
+                align-items: center;
+
+                border: none;
+
+            }
+
+        }
+
+
+
+        @media screen and (max-width:1023px) {
+
+            .slider-buttons-main {
+
+                top: 40%;
+
+                left: -2%;
+
+            }
+
+
+
+            .slider-buttons-main-2 {
+
+                top: 40%;
+
+                right: -2%;
+
+            }
+
+        }
+
+
+
+        @media screen and (max-width:992px) {
+
+            .slider-buttons-main {
+
+                top: 40%;
+
+                left: -4%;
+
+                display: none !important;
+
+            }
+
+
+
+            .slider-buttons-main-2 {
+
+                top: 40%;
+
+                right: -4%;
+
+                display: none !important;
+
+            }
+
+        }
+
+
+
+        .register-now-about-btn:active {
+
+            border-right: 2px solid #000;
+
+            border-bottom: 2px solid #000;
+
+            background: var(--04, #FFC520) !important;
+
+            color: var(--05, #111) !important;
+
+        }
+
+
+
+        @media screen and (max-width:768px) {
+
+            .accordion {
+
+                display: flex;
+
+                flex-direction: column;
+
+                font-family: "Sora", sans-serif;
+
+                width: 100%;
+
+                margin: auto;
+
+                margin-bottom: 50px;
+
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+        .accordion-item-desc {
+
+            display: none;
+
+        }
+
+
+
+        input[type="checkbox"] {
+
+            display: none;
+
+        }
+
+
+
+        input[type="checkbox"]+.accordion-item-desc {
+
+            display: none;
+
+        }
+
+
+
+        input[type="checkbox"]:checked+.accordion-item-desc {
+
+            display: block;
+
+        }
+
+
+
+        .offcanvas {
+
+            width: 300px !important;
+
+        }
+
+
+
+        @media screen and (max-width: 425px) {
+
+            .v-btn1 {
+
+                color: var(--06, #333);
+
+                text-align: center;
+
+                font-family: gujFont1;
+
+                font-size: 15px;
+
+                font-style: normal;
+
+                font-weight: 400;
+
+                line-height: normal;
+
+                border-radius: 10px;
 
                 border-right: 2px solid #000;
 
                 border-bottom: 2px solid #000;
 
-                background: var(--04, #FFC520) !important;
+                display: flex;
 
-                color: var(--05, #111) !important;
+                padding: 8px 20px;
+
+                justify-content: center;
+
+                align-items: center;
+
+                gap: 10px;
+
+                border-radius: 10px;
+
+                background: var(--08, #F5F5F5);
+
+                text-wrap: nowrap;
+
+            }
+
+        }
+
+
+
+        @media screen and (max-width: 576px) {
+
+            .video {
+
+                margin-bottom: 30px;
+
+                margin-top: 30px;
+
+                width: 100%;
+
+                height: 100%;
+
+            }
+
+        }
+
+
+
+        @media screen and (max-width:992px) {
+
+            .bg-img-main {
+
+                background-image: url(../images/bg-middle.png);
+
+                background-position: center;
+
+                background-size: cover;
+
+                padding: 50px 0px 26px;
+
+            }
+
+        }
+
+
+
+        @media screen and (max-width: 768px) {
+
+            .v-btn1 {
+
+                color: var(--06, #333);
+
+                text-align: center;
+
+                font-family: gujFont1;
+
+                font-size: 16px;
+
+                font-style: normal;
+
+                font-weight: 400;
+
+                line-height: normal;
+
+                border-radius: 10px;
+
+                border-right: 2px solid #000;
+
+                border-bottom: 2px solid #000;
+
+                display: flex;
+
+                padding: 9px 20px;
+
+                justify-content: center;
+
+                align-items: center;
+
+                gap: 10px;
+
+                border-radius: 10px;
+
+                background: var(--08, #F5F5F5);
+
+                text-wrap: nowrap;
+
+            }
+
+        }
+
+
+
+        @media screen and (max-width: 768px) {
+
+            .v-btn1:hover {
+
+                color: var(--06, #fff);
+
+                text-align: center;
+
+                font-family: gujFont1;
+
+                font-size: 16px;
+
+                font-style: normal;
+
+                font-weight: 400;
+
+                line-height: normal;
+
+                border-radius: 10px;
+
+                border-right: 2px solid #000;
+
+                border-bottom: 2px solid #000;
+
+                display: flex;
+
+                padding: 9px 20px;
+
+                justify-content: center;
+
+                align-items: center;
+
+                gap: 10px;
+
+                border-radius: 10px;
+
+                background: var(--02, #0C9146);
+
+                text-wrap: nowrap;
 
             }
 
 
 
-            @media screen and (max-width:768px) {
+            .v-main {
 
-                .accordion {
-
-                    display: flex;
-
-                    flex-direction: column;
-
-                    font-family: "Sora", sans-serif;
-
-                    width: 100%;
-
-                    margin: auto;
-
-                    margin-bottom: 50px;
-
-                }
+                margin-top: 50px;
 
             }
 
 
 
+            .upcoming-section-btn {
 
+                color: #fff;
 
+                font-family: gujFont1;
 
+                font-size: 16px;
 
+                font-style: normal;
 
+                font-weight: 400;
 
-            .accordion-item-desc {
+                line-height: normal;
 
-                display: none;
+                display: flex;
 
-            }
+                padding: 9px 20px;
 
+                justify-content: center;
 
+                align-items: center;
 
-            input[type="checkbox"] {
+                gap: 10px;
 
-                display: none;
+                border-radius: 10px;
 
-            }
+                border-right: 2px solid #000;
 
+                border-bottom: 2px solid #000;
 
+                background: var(--02, #0C9146) !important;
 
-            input[type="checkbox"]+.accordion-item-desc {
+                margin-top: 30px;
 
-                display: none;
-
-            }
-
-
-
-            input[type="checkbox"]:checked+.accordion-item-desc {
-
-                display: block;
-
-            }
-
-
-
-            .offcanvas {
-
-                width: 300px !important;
+                margin-bottom: 30px;
 
             }
 
 
 
-            @media screen and (max-width: 425px) {
+            .upcoming-section-btn:hover {
 
-                .v-btn1 {
+                color: #000;
 
-                    color: var(--06, #333);
+                font-family: gujFont1;
 
-                    text-align: center;
+                font-size: 16px;
 
-                    font-family: gujFont1;
+                font-style: normal;
 
-                    font-size: 15px;
+                font-weight: 400;
 
-                    font-style: normal;
+                line-height: normal;
 
-                    font-weight: 400;
+                display: flex;
 
-                    line-height: normal;
+                padding: 9px 20px;
 
-                    border-radius: 10px;
+                justify-content: center;
 
-                    border-right: 2px solid #000;
+                align-items: center;
 
-                    border-bottom: 2px solid #000;
+                gap: 10px;
 
-                    display: flex;
+                border-radius: 10px;
 
-                    padding: 8px 20px;
+                border-right: 2px solid #000;
 
-                    justify-content: center;
+                border-bottom: 2px solid #000;
 
-                    align-items: center;
+                background: var(--02, #fff) !important;
 
-                    gap: 10px;
+                margin-top: 30px;
 
-                    border-radius: 10px;
-
-                    background: var(--08, #F5F5F5);
-
-                    text-wrap: nowrap;
-
-                }
+                margin-bottom: 30px;
 
             }
 
+        }
 
 
-            @media screen and (max-width: 576px) {
 
-                .video {
+        .offcanvas {
 
-                    margin-bottom: 30px;
+            width: 250px !important;
 
-                    margin-top: 30px;
+        }
 
-                    width: 100%;
 
-                    height: 100%;
 
-                }
+        .active {
 
-            }
+            color: var(--02, #0C9146) !important;
 
+        }
 
 
-            @media screen and (max-width:992px) {
 
-                .bg-img-main {
+        .offcanvas.hiding,
 
-                    background-image: url(../images/bg-middle.png);
+        .offcanvas.show,
 
-                    background-position: center;
+        .offcanvas.showing {
 
-                    background-size: cover;
+            width: 250px;
 
-                    padding: 50px 0px 26px;
+        }
 
-                }
 
-            }
 
+        .offcanvas-header {
 
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 
-            @media screen and (max-width: 768px) {
+        }
 
-                .v-btn1 {
 
-                    color: var(--06, #333);
 
-                    text-align: center;
+        iframe {
 
-                    font-family: gujFont1;
+            height: 750px !important;
 
-                    font-size: 16px;
+        }
 
-                    font-style: normal;
 
-                    font-weight: 400;
 
-                    line-height: normal;
-
-                    border-radius: 10px;
-
-                    border-right: 2px solid #000;
-
-                    border-bottom: 2px solid #000;
-
-                    display: flex;
-
-                    padding: 9px 20px;
-
-                    justify-content: center;
-
-                    align-items: center;
-
-                    gap: 10px;
-
-                    border-radius: 10px;
-
-                    background: var(--08, #F5F5F5);
-
-                    text-wrap: nowrap;
-
-                }
-
-            }
-
-
-
-            @media screen and (max-width: 768px) {
-
-                .v-btn1:hover {
-
-                    color: var(--06, #fff);
-
-                    text-align: center;
-
-                    font-family: gujFont1;
-
-                    font-size: 16px;
-
-                    font-style: normal;
-
-                    font-weight: 400;
-
-                    line-height: normal;
-
-                    border-radius: 10px;
-
-                    border-right: 2px solid #000;
-
-                    border-bottom: 2px solid #000;
-
-                    display: flex;
-
-                    padding: 9px 20px;
-
-                    justify-content: center;
-
-                    align-items: center;
-
-                    gap: 10px;
-
-                    border-radius: 10px;
-
-                    background: var(--02, #0C9146);
-
-                    text-wrap: nowrap;
-
-                }
-
-
-
-                .v-main {
-
-                    margin-top: 50px;
-
-                }
-
-
-
-                .upcoming-section-btn {
-
-                    color: #fff;
-
-                    font-family: gujFont1;
-
-                    font-size: 16px;
-
-                    font-style: normal;
-
-                    font-weight: 400;
-
-                    line-height: normal;
-
-                    display: flex;
-
-                    padding: 9px 20px;
-
-                    justify-content: center;
-
-                    align-items: center;
-
-                    gap: 10px;
-
-                    border-radius: 10px;
-
-                    border-right: 2px solid #000;
-
-                    border-bottom: 2px solid #000;
-
-                    background: var(--02, #0C9146) !important;
-
-                    margin-top: 30px;
-
-                    margin-bottom: 30px;
-
-                }
-
-
-
-                .upcoming-section-btn:hover {
-
-                    color: #000;
-
-                    font-family: gujFont1;
-
-                    font-size: 16px;
-
-                    font-style: normal;
-
-                    font-weight: 400;
-
-                    line-height: normal;
-
-                    display: flex;
-
-                    padding: 9px 20px;
-
-                    justify-content: center;
-
-                    align-items: center;
-
-                    gap: 10px;
-
-                    border-radius: 10px;
-
-                    border-right: 2px solid #000;
-
-                    border-bottom: 2px solid #000;
-
-                    background: var(--02, #fff) !important;
-
-                    margin-top: 30px;
-
-                    margin-bottom: 30px;
-
-                }
-
-            }
-
-
-
-            .offcanvas {
-
-                width: 250px !important;
-
-            }
-
-
-
-            .active {
-
-                color: var(--02, #0C9146) !important;
-
-            }
-
-
-
-            .offcanvas.hiding,
-
-            .offcanvas.show,
-
-            .offcanvas.showing {
-
-                width: 250px;
-
-            }
-
-
-
-            .offcanvas-header {
-
-                box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-
-            }
-
-
+        @media screen and (max-width:1400px) {
 
             iframe {
 
-                height: 750px !important;
+                height: 650px !important;
 
             }
 
-
-
-            @media screen and (max-width:1400px) {
-
-                iframe {
-
-                    height: 650px !important;
-
-                }
-
-            }
+        }
 
 
 
-            @media screen and (max-width:1200px) {
+        @media screen and (max-width:1200px) {
 
-                iframe {
+            iframe {
 
-                    height: 550px !important;
-
-                }
+                height: 550px !important;
 
             }
 
-
-
-            @media screen and (max-width:992px) {
-
-                iframe {
-
-                    height: 450px !important;
-
-                }
-
-            }
+        }
 
 
 
-            @media screen and (max-width:768px) {
+        @media screen and (max-width:992px) {
 
-                iframe {
+            iframe {
 
-                    height: 350px !important;
-
-                }
+                height: 450px !important;
 
             }
 
-
-
-            @media screen and (max-width:576px) {
-
-                iframe {
-
-                    height: 280px !important;
-
-                }
-
-            }
+        }
 
 
 
-            @media screen and (max-width:425px) {
+        @media screen and (max-width:768px) {
 
-                iframe {
+            iframe {
 
-                    height: 250px !important;
-
-                }
+                height: 350px !important;
 
             }
 
-            
+        }
 
-            .course-btn{
 
-                font-family:gujFont1;
 
-                font-weight:400 !important;
+        @media screen and (max-width:576px) {
 
-                text-decoration:none;
+            iframe {
 
-                background:var(--02, #0C9146);
-
-                color:#fff;
-
-                transition-duration:0.5s;
-
-                padding:9px 20px;
-
-                border-radius:5px;
-
-                border-bottom:2px solid black;
-
-                border-right:2px solid black;
+                height: 280px !important;
 
             }
 
-            
+        }
 
-            .course-btn:hover{
 
-                font-family:gujFont1;
 
-                font-weight:400 !important;
+        @media screen and (max-width:425px) {
 
-                text-decoration:none;
+            iframe {
 
-                background:var(--04, #FFC520);
-
-                color:#000;
-
-                transition-duration:0.5s;
+                height: 250px !important;
 
             }
 
-            
+        }
 
-            .join-now-btn{
 
-                font-family:gujFont1 !important;
 
-                font-weight:400 !important;
+        .course-btn {
 
-                text-decoration:none;
+            font-family: gujFont1;
 
-                background:var(--02, #0C9146);
+            font-weight: 400 !important;
 
-                color:#fff;
+            text-decoration: none;
 
-                transition-duration:0.5s;
+            background: var(--02, #0C9146);
 
-                padding:9px 20px;
+            color: #fff;
 
-                border-radius:5px;
+            transition-duration: 0.5s;
 
-            }
+            padding: 9px 20px;
 
-            
+            border-radius: 5px;
 
-            .join-now-btn:hover{
+            border-bottom: 2px solid black;
 
-                font-family:gujFont1;
+            border-right: 2px solid black;
 
-                font-weight:400 !important;
+        }
 
-                text-decoration:none;
 
-                background:var(--04, #FFC520);
 
-                color:#000;
+        .course-btn:hover {
 
-                transition-duration:0.5s;
+            font-family: gujFont1;
 
-            }
+            font-weight: 400 !important;
 
+            text-decoration: none;
+
+            background: var(--04, #FFC520);
+
+            color: #000;
+
+            transition-duration: 0.5s;
+
+        }
+
+
+
+        .join-now-btn {
+
+            font-family: gujFont1 !important;
+
+            font-weight: 400 !important;
+
+            text-decoration: none;
+
+            background: var(--02, #0C9146);
+
+            color: #fff;
+
+            transition-duration: 0.5s;
+
+            padding: 9px 20px;
+
+            border-radius: 5px;
+
+        }
+
+
+
+        .join-now-btn:hover {
+
+            font-family: gujFont1;
+
+            font-weight: 400 !important;
+
+            text-decoration: none;
+
+            background: var(--04, #FFC520);
+
+            color: #000;
+
+            transition-duration: 0.5s;
+
+        }
     </style>
 
+    <style>
+        /* styles.css */
 
+        body {
+            margin: 0;
+            padding: 0;
+        }
 
-<!-- Hero section -->
+        #loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            /* Change as needed */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            /* Ensure it sits on top of other content */
+        }
 
+        #loader img {
+            width: 150px;
+            /* Initial size of your loader image */
+            height: auto;
+            animation: pulse 1.5s infinite;
+            /* Apply animation */
+        }
 
+        /* Keyframes for scaling animation */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
 
-    <section class="hero_bg">
+            50% {
+                transform: scale(1.2);
+            }
+
+            /* Increase size */
+            100% {
+                transform: scale(1);
+            }
+
+            /* Return to original size */
+        }
+
+        #content {
+            display: none;
+            /* Hide the content initially */
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Hide the loader and show the content
+            const loader = document.getElementById('loader');
+            const content = document.getElementById('content');
+
+            loader.style.display = 'none';
+            content.style.display = 'block';
+        });
+    </script>
+
+    <!-- Loader -->
+    <div id="loader">
+        <img src="https://gujratitrader.com/images/home_image/logo-main.png" alt="Loading...">
+    </div>
+
+    <section class="hero_bg" id="content">
 
         <div class="container">
 
@@ -2067,9 +2121,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-7">
 
                     <div class="d-flex justify-content-center"><img
-
                             src="{{ asset('images/home_image/Heder mobile-img.png') }}" alt=""
-
                             class="img-fluid d-xl-none d-lg-none d-md-none d-flex hero-img-mobile"></div>
 
                     <div class="d-xl-block d-lg-block d-md-block d-none">
@@ -2090,7 +2142,8 @@
 
                         </div>
 
-                        <a href="{{ route('contact') }}" style="text-decoration:none"><button class="btn contact-us" style="font-family:gujFont1;font-weight:400">VDFZM ;\5S" SZM</button></a>
+                        <a href="{{ route('contact') }}" style="text-decoration:none"><button class="btn contact-us"
+                                style="font-family:gujFont1;font-weight:400">VDFZM ;\5S" SZM</button></a>
 
                     </div>
 
@@ -2101,7 +2154,6 @@
                     <div class="d-xl-block d-lg-block d-md-block d-none">
 
                         <img src="{{ asset('images/home_image/Hero section img.png') }}" alt=""
-
                             class="img-fluid hero-img">
 
                     </div>
@@ -2124,7 +2176,8 @@
 
                         </div>
 
-                        <a href="{{ route('contact') }}" class="text-decoration-none"><button class="btn contact-us" style="font-family:gujFont1;font-weight:400">VDFZM ;\5S" SZM</button></a>
+                        <a href="{{ route('contact') }}" class="text-decoration-none"><button class="btn contact-us"
+                                style="font-family:gujFont1;font-weight:400">VDFZM ;\5S" SZM</button></a>
 
                     </div>
 
@@ -2171,10 +2224,8 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mb-xl-0 mb-lg-0 mb-4">
 
                         <div class="d-flex justify-content-center home-main-card-img"><img
-
-                                src="{{ asset('images/home_image/Home-card-1.png') }}" alt=""
-
-                                class="img-fluid"></div>
+                                src="{{ asset('images/home_image/Home-card-1.png') }}" alt="" class="img-fluid">
+                        </div>
 
                         <div class="home-main-card-text">pÅT ;FWGM</div>
 
@@ -2183,10 +2234,8 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mb-xl-0 mb-lg-0 mb-4">
 
                         <div class="d-flex justify-content-center home-main-card-img"><img
-
-                                src="{{ asset('images/home_image/Home-card-2.png') }}" alt=""
-
-                                class="img-fluid"></div>
+                                src="{{ asset('images/home_image/Home-card-2.png') }}" alt="" class="img-fluid">
+                        </div>
 
                         <div class="home-main-card-text">8=[™0U DFU"NlX"SFVM</div>
 
@@ -2195,10 +2244,8 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mb-xl-0 mb-lg-0 mb-4">
 
                         <div class="d-flex justify-content-center home-main-card-img"><img
-
-                                src="{{ asset('images/home_image/Home-card-3.png') }}" alt=""
-
-                                class="img-fluid"></div>
+                                src="{{ asset('images/home_image/Home-card-3.png') }}" alt="" class="img-fluid">
+                        </div>
 
                         <div class="home-main-card-text">h05L VD,</div>
 
@@ -2207,12 +2254,10 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mb-xl-0 mb-lg-0 mb-4">
 
                         <div class="d-flex justify-content-center home-main-card-img"><img
+                                src="{{ asset('images/home_image/Home-card-4.png') }}" alt="" class="img-fluid">
+                        </div>
 
-                                src="{{ asset('images/home_image/Home-card-4.png') }}" alt=""
-
-                                class="img-fluid"></div>
-
-                        <div class="home-main-card-text"><span class="home-main-card-text2">0%</span> SlDXG</div>
+                        {{-- <div class="home-main-card-text"><span class="home-main-card-text2">0%</span> SlDXG</div> --}}
 
                     </div>
 
@@ -2273,8 +2318,7 @@
 
 
                     @foreach ($events as $event)
-
-                    {{-- @if($event->event_end_date >= now()) --}}
+                        {{-- @if ($event->event_end_date >= now()) --}}
 
                         <div class="row d-flex align-items-center">
 
@@ -2291,7 +2335,6 @@
                             </div>
 
                             <div
-
                                 class="col-xl-1 col-lg-0 col-md-1 col-sm-1 timer-dots d-xl-flex d-lg-none d-md-flex d-sm-none d-none justify-content-center">
 
                                 :</div>
@@ -2309,7 +2352,6 @@
                             </div>
 
                             <div
-
                                 class="col-xl-1 col-lg-0 col-md-1 col-sm-1 timer-dots d-xl-flex d-lg-none d-md-flex d-sm-none d-none justify-content-center">
 
                                 :</div>
@@ -2327,7 +2369,6 @@
                             </div>
 
                             <div
-
                                 class="col-xl-1 col-lg-0 col-md-1 col-sm-1 timer-dots d-xl-flex d-lg-none d-md-flex d-sm-none d-none justify-content-center">
 
                                 :</div>
@@ -2347,7 +2388,6 @@
                         </div>
 
                         {{-- @endif --}}
-
                     @endforeach
 
 
@@ -2367,7 +2407,6 @@
                 <div class="col-xl-6 col-lg-6 col-md-12">
 
                     <img src="{{ asset('images/home_image/Upcoming-section-img.png') }}" alt=""
-
                         class="img-fluid">
 
                 </div>
@@ -2403,7 +2442,6 @@
                         <div class="col-xl-6 col-lg-6 col-md-12">
 
                             <img src="{{ asset('images/home_image/Offline class image.png') }}" alt=""
-
                                 class="img-fluid slider-image">
 
                         </div>
@@ -2412,11 +2450,141 @@
 
                             <div class="offline-heading">VMO,F.G S,F; GL ;]lJWF</div>
 
+                            <div class="offline-content">
+
+                                <ul>
+
+                                    <li> <i class="pe-2">✓</i>;JFZ[ <span class="list-number-gujtext">9</span> YL ;F\H[
+
+                                        <span class="list-number-gujtext">5</span> S,FS ;]WL
+
+                                        <span class="list-number-gujtext">2</span> lNJ; S,F;
+
+                                    </li>
+
+                                    <li><i class="pe-2">✓</i>DGL D[G[HD[g8 TYF ;FISM,M_ 5Z :5[xI, VMG,F>G ;[XG </li>
+
+                                    <li><i class="pe-2">✓</i>VMG W :5M8 ÔÇí0Fp8 ;MÿI]XG</li>
+
+                                    <li><i class="pe-2">✓</i>VMO,F.G S,F; GF lJnFY›VM G[ S,F; SIF" AFN VMG,F>G S,F; DF\
+                                        vL
+
+                                        V[g8=L
+
+                                        ZC[X[ </li>
+
+                                    <li><i class="pe-2">✓</i>,F>O8F>D ;5M8"</li>
+
+                                    <li><i class="pe-2">✓</i>VMO,F.G S,F; DF\ VFJGFZ lJnFY›VM DF8[ ZC[JFHDJFGL ;]lJWF SZL
+
+                                        VF5JFDF\ VFJX[ </li>
+
+                                    <li><i class="pe-2">✓</i>lZlJHG DF8[ vL VMG,F>G S,F; V[g8=L TYF Z[SMl0©U D/X[</li>
+
+                                </ul>
+
+                            </div>
+
+                            <a href="#" class="text-decoration-none"><button class="btn offline-class-btn">JW]
+
+                                    DFlCTL
+
+                                    DF8[ SM, SZM</button></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12">
+
+                    <div class="row d-flex align-items-center">
+
+                        <div class="col-xl-6 col-lg-6 col-md-12">
+
+                            <img src="{{ asset('images/home_image/Offline class image.png') }}" alt=""
+                                class="img-fluid slider-image">
+
+                        </div>
+
+                        <div class="col-xl-6 col-lg-6 col-md-12">
+
+                            <div class="offline-heading">VMO,F.G S,F; GL ;]lJWF</div>
+
+                            <div class="offline-content">
+
+                                <ul>
+
+                                    <li> <i class="pe-2">✓</i>;JFZ[ <span class="list-number-gujtext">9</span> YL ;F\H[
+
+                                        <span class="list-number-gujtext">5</span> S,FS ;]WL
+
+                                        <span class="list-number-gujtext">2</span> lNJ; S,F;
+
+                                    </li>
+
+                                    <li><i class="pe-2">✓</i>DGL D[G[HD[g8 TYF ;FISM,M_ 5Z :5[xI, VMG,F>G ;[XG </li>
+
+                                    <li><i class="pe-2">✓</i>VMG W :5M8 ÔÇí0Fp8 ;MÿI]XG</li>
+
+                                    <li><i class="pe-2">✓</i>VMO,F.G S,F; GF lJnFY›VM G[ S,F; SIF" AFN VMG,F>G S,F; DF\
+
+                                        vL
+
+                                        V[g8=L
+
+                                        ZC[X[ </li>
+
+                                    <li><i class="pe-2">✓</i>,F>O8F>D ;5M8"</li>
+
+                                    <li><i class="pe-2">✓</i>VMO,F.G S,F; DF\ VFJGFZ lJnFY›VM DF8[ ZC[JFHDJFGL ;]lJWF
+
+                                        SZL VF5JFDF\ VFJX[ </li>
+
+                                    <li><i class="pe-2">✓</i>lZlJHG DF8[ vL VMG,F>G S,F; V[g8=L TYF Z[SMl0©U D/X[</li>
+
+                                </ul>
+
+                            </div>
+
+                            <a href="#" class="text-decoration-none"><button class="btn offline-class-btn">JW]
+
+                                    DFlCTL
+
+                                    DF8[ SM, SZM</button></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-12">
+
+                    <div class="row d-flex align-items-center">
+
+                        <div class="col-xl-6 col-lg-6 col-md-12">
+
+                            <img src="{{ asset('images/home_image/Offline class image.png') }}" alt=""
+                                class="img-fluid slider-image">
+
+                        </div>
+
+                        <div class="col-xl-6 col-lg-6 col-md-12">
+
+                            <div class="offline-heading">VMO<,F.G S,F; GL ;]lJWF</div>
+
                                     <div class="offline-content">
 
                                         <ul>
 
-                                            <li> <i class="pe-2">✓</i>;JFZ[ <span class="list-number-gujtext">9</span> YL ;F\H[
+                                            <li> <i class="pe-2">✓</i>;JFZ[ <span class="list-number-gujtext">9</span>
+                                                YL
+
+                                                ;F\H[
 
                                                 <span class="list-number-gujtext">5</span> S,FS ;]WL
 
@@ -2424,11 +2592,17 @@
 
                                             </li>
 
-                                            <li><i class="pe-2">✓</i>DGL D[G[HD[g8 TYF ;FISM,M_ 5Z :5[xI, VMG,F>G ;[XG </li>
+                                            <li><i class="pe-2">✓</i>DGL D[G[HD[g8 TYF ;FISM,M_ 5Z :5[xI, VMG,F>G ;[XG
+                                            </li>
 
                                             <li><i class="pe-2">✓</i>VMG W :5M8 ÔÇí0Fp8 ;MÿI]XG</li>
 
-                                            <li><i class="pe-2">✓</i>VMO,F.G S,F; GF lJnFY›VM G[ S,F; SIF" AFN VMG,F>G S,F; DF\ vL
+                                            <li><i class="pe-2">✓</i>VMO,F.G S,F; GF lJnFY›VM G[ S,F; SIF" AFN VMG,F>G
+                                                S,F;
+
+                                                DF\
+
+                                                vL
 
                                                 V[g8=L
 
@@ -2436,18 +2610,19 @@
 
                                             <li><i class="pe-2">✓</i>,F>O8F>D ;5M8"</li>
 
-                                            <li><i class="pe-2">✓</i>VMO,F.G S,F; DF\ VFJGFZ lJnFY›VM DF8[ ZC[JFHDJFGL ;]lJWF SZL
+                                            <li><i class="pe-2">✓</i>VMO,F.G S,F; DF\ VFJGFZ lJnFYVM DF8[ ZC[JFHDJFGL
 
-                                                    VF5JFDF\ VFJX[ </li>
+                                                ;]lJWF SZL VF5JFDF\ VFJX[ </li>
 
-                                            <li><i class="pe-2">✓</i>lZlJHG DF8[ vL VMG,F>G S,F; V[g8=L TYF Z[SMl0©U D/X[</li>
+                                            <li><i class="pe-2">✓</i>lZlJHG DF8[ vL VMG,F>G S,F; V[g8=L TYF Z[SMl0©U D/X[
+
+                                            </li>
 
                                         </ul>
 
                                     </div>
 
                                     <a href="#" class="text-decoration-none"><button
-
                                             class="btn offline-class-btn">JW]
 
                                             DFlCTL
@@ -2460,177 +2635,35 @@
 
                     </div>
 
-                    <div class="col-12">
+                </div>
 
-                        <div class="row d-flex align-items-center">
+                <div class="d-flex position-absolute slider-buttons-main">
 
-                            <div class="col-xl-6 col-lg-6 col-md-12">
+                    <button class="custom-prev-2">
 
-                                <img src="{{ asset('images/home_image/Offline class image.png') }}" alt=""
+                        <img src="{{ asset('images/home_image/Slider-left arrow.png') }}" alt="" width="22px"
+                            height="22px">
 
-                                    class="img-fluid slider-image">
+                    </button>
 
-                            </div>
+                </div>
 
-                            <div class="col-xl-6 col-lg-6 col-md-12">
+                <div class="d-flex position-absolute slider-buttons-main-2">
 
-                                <div class="offline-heading">VMO,F.G S,F; GL ;]lJWF</div>
+                    <button class="custom-next-2">
 
-                                        <div class="offline-content">
+                        <img src="{{ asset('images/home_image/slider right arrow.png') }}" alt="" width="22px"
+                            height="22px">
 
-                                            <ul>
-
-                                                <li> <i class="pe-2">✓</i>;JFZ[ <span class="list-number-gujtext">9</span> YL ;F\H[
-
-                                                    <span class="list-number-gujtext">5</span> S,FS ;]WL
-
-                                                    <span class="list-number-gujtext">2</span> lNJ; S,F;
-
-                                                </li>
-
-                                                <li><i class="pe-2">✓</i>DGL D[G[HD[g8 TYF ;FISM,M_ 5Z :5[xI, VMG,F>G ;[XG </li>
-
-                                                <li><i class="pe-2">✓</i>VMG W :5M8 ÔÇí0Fp8 ;MÿI]XG</li>
-
-                                                <li><i class="pe-2">✓</i>VMO,F.G S,F; GF lJnFY›VM G[ S,F; SIF" AFN VMG,F>G S,F; DF\
-
-                                                    vL
-
-                                                    V[g8=L
-
-                                                    ZC[X[ </li>
-
-                                                <li><i class="pe-2">✓</i>,F>O8F>D ;5M8"</li>
-
-                                                <li><i class="pe-2">✓</i>VMO,F.G S,F; DF\ VFJGFZ lJnFY›VM DF8[ ZC[JFHDJFGL ;]lJWF
-
-                                                        SZL VF5JFDF\ VFJX[ </li>
-
-                                                <li><i class="pe-2">✓</i>lZlJHG DF8[ vL VMG,F>G S,F; V[g8=L TYF Z[SMl0©U D/X[</li>
-
-                                            </ul>
-
-                                        </div>
-
-                                        <a href="#" class="text-decoration-none"><button
-
-                                                class="btn offline-class-btn">JW]
-
-                                                DFlCTL
-
-                                                DF8[ SM, SZM</button></a>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-    
-
-                        <div class="col-12">
-
-                            <div class="row d-flex align-items-center">
-
-                                <div class="col-xl-6 col-lg-6 col-md-12">
-
-                                    <img src="{{ asset('images/home_image/Offline class image.png') }}"
-
-                                        alt="" class="img-fluid slider-image">
-
-                                </div>
-
-                                <div class="col-xl-6 col-lg-6 col-md-12">
-
-                                    <div class="offline-heading">VMO<,F.G S,F; GL ;]lJWF</div>
-
-                                            <div class="offline-content">
-
-                                                <ul>
-
-                                                    <li> <i class="pe-2">✓</i>;JFZ[ <span class="list-number-gujtext">9</span> YL
-
-                                                        ;F\H[
-
-                                                        <span class="list-number-gujtext">5</span> S,FS ;]WL
-
-                                                        <span class="list-number-gujtext">2</span> lNJ; S,F;
-
-                                                    </li>
-
-                                                    <li><i class="pe-2">✓</i>DGL D[G[HD[g8 TYF ;FISM,M_ 5Z :5[xI, VMG,F>G ;[XG </li>
-
-                                                    <li><i class="pe-2">✓</i>VMG W :5M8 ÔÇí0Fp8 ;MÿI]XG</li>
-
-                                                    <li><i class="pe-2">✓</i>VMO,F.G S,F; GF lJnFY›VM G[ S,F; SIF" AFN VMG,F>G S,F;
-
-                                                        DF\
-
-                                                        vL
-
-                                                        V[g8=L
-
-                                                        ZC[X[ </li>
-
-                                                    <li><i class="pe-2">✓</i>,F>O8F>D ;5M8"</li>
-
-                                                    <li><i class="pe-2">✓</i>VMO,F.G S,F; DF\ VFJGFZ lJnFYVM DF8[ ZC[JFHDJFGL
-
-                                                            ;]lJWF SZL VF5JFDF\ VFJX[ </li>
-
-                                                    <li><i class="pe-2">✓</i>lZlJHG DF8[ vL VMG,F>G S,F; V[g8=L TYF Z[SMl0©U D/X[
-
-                                                    </li>
-
-                                                </ul>
-
-                                            </div>
-
-                                            <a href="#" class="text-decoration-none"><button
-
-                                                    class="btn offline-class-btn">JW]
-
-                                                    DFlCTL
-
-                                                    DF8[ SM, SZM</button></a>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="d-flex position-absolute slider-buttons-main">
-
-                            <button class="custom-prev-2">
-
-                                <img src="{{ asset('images/home_image/Slider-left arrow.png') }}" alt="" width="22px"
-
-                                    height="22px">
-
-                            </button>
-
-                        </div>
-
-                        <div class="d-flex position-absolute slider-buttons-main-2">
-
-                            <button class="custom-next-2">
-
-                                <img src="{{ asset('images/home_image/slider right arrow.png') }}" alt="" width="22px"
-
-                                    height="22px">
-
-                            </button>
-
-                        </div>
-
-                    </div>
+                    </button>
 
                 </div>
 
             </div>
+
+        </div>
+
+        </div>
 
         </div>
 
@@ -2664,28 +2697,31 @@
 
                                         <ul>
 
-                                            <li> <i class="pe-2">✓</i>VMG,F>G S,F; S], 7 lNJ; GF ZC[X[ H[DF\ NZZMH 2 S,FS GF U}U, DL8
+                                            <li> <i class="pe-2">✓</i>VMG,F>G S,F; S], 7 lNJ; GF ZC[X[ H[DF\ NZZMH 2 S,FS
+                                                GF U}U, DL8
 
                                                 YL ,F>J S,F; ZC[X[</li>
 
-                                            <li><i class="pe-2">✓</i>VMG,F>G S,F; GM ;DI A[R D]HA ;JFZ[ VYJF ;F\H[ ZC[X[ </li>
+                                            <li><i class="pe-2">✓</i>VMG,F>G S,F; GM ;DI A[R D]HA ;JFZ[ VYJF ;F\H[ ZC[X[
+                                            </li>
 
                                             <li><i class="pe-2">✓</i>VMG W :5M8 ÔÇí0Fp8 ;MÿI]XG</li>
 
-                                            <li><i class="pe-2">✓</i>VMG,F.G S,F; GF lJnFY›VM G[ S,F; SIF" AFN ElJqI DF\ YTF VMO,F>G
+                                            <li><i class="pe-2">✓</i>VMG,F.G S,F; GF lJnFY›VM G[ S,F; SIF" AFN ElJqI DF\
+                                                YTF VMO,F>G
 
                                                 S,F; DF\ vL V[g8=L ZC[X[</li>
 
                                             <li><i class="pe-2">✓</i>,F>O8F>D ;5M8</li>
 
-                                            <li><i class="pe-2">✓</i>lZlJHG DF8[ vL VMG,F>G S,F; V[g8=L TYF Z[SMl0©U D/X[</li>
+                                            <li><i class="pe-2">✓</i>lZlJHG DF8[ vL VMG,F>G S,F; V[g8=L TYF Z[SMl0©U D/X[
+                                            </li>
 
                                         </ul>
 
                                     </div>
 
                                     <a href="#" class="text-decoration-none"><button
-
                                             class="btn offline-class-btn mb-3">JW]
 
                                             DFlCTL
@@ -2697,7 +2733,6 @@
                             <div class="col-xl-6 col-lg-6 col-md-12">
 
                                 <img src="{{ asset('images/home_image/Online class.png') }}" alt=""
-
                                     class="img-fluid slider-image">
 
                             </div>
@@ -2718,17 +2753,20 @@
 
                                             <ul>
 
-                                                <li> <i class="pe-2">✓</i>VMG,F>G S,F; S], 7 lNJ; GF ZC[X[ H[DF\ NZZMH 2 S,FS GF U}U,
+                                                <li> <i class="pe-2">✓</i>VMG,F>G S,F; S], 7 lNJ; GF ZC[X[ H[DF\ NZZMH 2
+                                                    S,FS GF U}U,
 
                                                     DL8
 
                                                     YL ,F>J S,F; ZC[X[</li>
 
-                                                <li><i class="pe-2">✓</i>VMG,F>G S,F; GM ;DI A[R D]HA ;JFZ[ VYJF ;F\H[ ZC[X[ </li>
+                                                <li><i class="pe-2">✓</i>VMG,F>G S,F; GM ;DI A[R D]HA ;JFZ[ VYJF ;F\H[
+                                                    ZC[X[ </li>
 
                                                 <li><i class="pe-2">✓</i>VMG W :5M8 ÔÇí0Fp8 ;MÿI]XG</li>
 
-                                                <li><i class="pe-2">✓</i>VMG,F.G S,F; GF lJnFY›VM G[ S,F; SIF" AFN ElJqI DF\ YTF
+                                                <li><i class="pe-2">✓</i>VMG,F.G S,F; GF lJnFY›VM G[ S,F; SIF" AFN ElJqI
+                                                    DF\ YTF
 
                                                     VMO,F>G
 
@@ -2736,14 +2774,14 @@
 
                                                 <li><i class="pe-2">✓</i>,F>O8F>D ;5M8</li>
 
-                                                <li><i class="pe-2">✓</i>lZlJHG DF8[ vL VMG,F>G S,F; V[g8=L TYF Z[SMl0©U D/X[</li>
+                                                <li><i class="pe-2">✓</i>lZlJHG DF8[ vL VMG,F>G S,F; V[g8=L TYF Z[SMl0©U
+                                                    D/X[</li>
 
                                             </ul>
 
                                         </div>
 
                                         <a href="#" class="text-decoration-none"><button
-
                                                 class="btn offline-class-btn mb-3">JW]
 
                                                 DFlCTL
@@ -2757,7 +2795,6 @@
                                 <div class="col-xl-6 col-lg-6 col-md-12">
 
                                     <img src="{{ asset('images/home_image/Online class.png') }}" alt=""
-
                                         class="img-fluid slider-image">
 
                                 </div>
@@ -2780,7 +2817,8 @@
 
                                                 <ul>
 
-                                                    <li> <i class="pe-2">✓</i>VMG,F>G S,F; S], 7 lNJ; GF ZC[X[ H[DF\ NZZMH 2 S,FS GF
+                                                    <li> <i class="pe-2">✓</i>VMG,F>G S,F; S], 7 lNJ; GF ZC[X[ H[DF\
+                                                        NZZMH 2 S,FS GF
 
                                                         U}U,
 
@@ -2788,13 +2826,15 @@
 
                                                         YL ,F>J S,F; ZC[X[</li>
 
-                                                    <li><i class="pe-2">✓</i>VMG,F>G S,F; GM ;DI A[R D]HA ;JFZ[ VYJF ;F\H[ ZC[X[
+                                                    <li><i class="pe-2">✓</i>VMG,F>G S,F; GM ;DI A[R D]HA ;JFZ[ VYJF
+                                                        ;F\H[ ZC[X[
 
                                                     </li>
 
                                                     <li><i class="pe-2">✓</i>VMG W :5M8 ÔÇí0Fp8 ;MÿI]XG</li>
 
-                                                    <li><i class="pe-2">✓</i>VMG,F.G S,F; GF lJnFY›VM G[ S,F; SIF" AFN ElJqI DF\ YTF
+                                                    <li><i class="pe-2">✓</i>VMG,F.G S,F; GF lJnFY›VM G[ S,F; SIF" AFN
+                                                        ElJqI DF\ YTF
 
                                                         VMO,F>G
 
@@ -2802,7 +2842,8 @@
 
                                                     <li><i class="pe-2">✓</i>,F>O8F>D ;5M8</li>
 
-                                                    <li><i class="pe-2">✓</i>lZlJHG DF8[ vL VMG,F>G S,F; V[g8=L TYF Z[SMl0©U D/X[
+                                                    <li><i class="pe-2">✓</i>lZlJHG DF8[ vL VMG,F>G S,F; V[g8=L TYF
+                                                        Z[SMl0©U D/X[
 
                                                     </li>
 
@@ -2811,7 +2852,6 @@
                                             </div>
 
                                             <a href="#" class="text-decoration-none"><button
-
                                                     class="btn offline-class-btn mb-3">JW]
 
                                                     DFlCTL
@@ -2825,7 +2865,6 @@
                                     <div class="col-xl-6 col-lg-6 col-md-12">
 
                                         <img src="{{ asset('images/home_image/Online class.png') }}" alt=""
-
                                             class="img-fluid slider-image">
 
                                     </div>
@@ -2836,31 +2875,31 @@
 
                         </div>
 
-                    <div class="d-flex position-absolute slider-buttons-main">
+                        <div class="d-flex position-absolute slider-buttons-main">
 
-                        <button class="custom-prev-3">
+                            <button class="custom-prev-3">
 
-                            <img src="{{ asset('images/home_image/Slider-left arrow.png') }}" alt="">
+                                <img src="{{ asset('images/home_image/Slider-left arrow.png') }}" alt="">
 
-                        </button>
+                            </button>
 
-                    </div>
+                        </div>
 
-                    <div class="d-flex position-absolute slider-buttons-main-2">
+                        <div class="d-flex position-absolute slider-buttons-main-2">
 
-                        <button class="custom-next-3">
+                            <button class="custom-next-3">
 
-                            <img src="{{ asset('images/home_image/slider right arrow.png') }}" alt="">
+                                <img src="{{ asset('images/home_image/slider right arrow.png') }}" alt="">
 
-                        </button>
+                            </button>
+
+                        </div>
 
                     </div>
 
                 </div>
 
             </div>
-
-        </div>
 
     </section>
 
@@ -2891,7 +2930,6 @@
                 <div class="col-xl col-lg col-md-4 col-sm-4 col-4">
 
                     <div class="d-flex justify-content-center"><img src="{{ asset('images/home_image/Atsc1.png') }}"
-
                             alt="" class="img-fluid">
 
                     </div>
@@ -2903,7 +2941,6 @@
                 <div class="col-xl col-lg col-md-4 col-sm-4 col-4">
 
                     <div class="d-flex justify-content-center"><img src="{{ asset('images/home_image/Atsc2.png') }}"
-
                             alt="" class="img-fluid">
 
                     </div>
@@ -2915,7 +2952,6 @@
                 <div class="col-xl col-lg col-md-4 col-sm-4 col-4">
 
                     <div class="d-flex justify-content-center"><img src="{{ asset('images/home_image/Atsc3.png') }}"
-
                             alt="" class="img-fluid">
 
                     </div>
@@ -2927,7 +2963,6 @@
                 <div class="col-xl col-lg col-md-4 col-sm-4 col-4" style="text-wrap: nowrap;">
 
                     <div class="d-flex justify-content-center"><img src="{{ asset('images/home_image/Atsc4.png') }}"
-
                             alt="" class="img-fluid">
 
                     </div>
@@ -2939,7 +2974,6 @@
                 <div class="col-xl col-lg col-md-4 col-sm-4 col-4">
 
                     <div class="d-flex justify-content-center"><img src="{{ asset('images/home_image/Atsc5.png') }}"
-
                             alt="" class="img-fluid">
 
                     </div>
@@ -2973,7 +3007,6 @@
         <div class="v-main-head">lJÆEZDF\ ,FBM lJnFY›VM</div>
 
         <div class="container v-main-content">X[ZA•ZGF pNIYL X[ZA•ZGF J[5FZ DF8[ VF lXBFp DF6;GL DFU"NlX"SFV [ <br
-
                 class="breaking-line"> GJF J[5FZ BMÿIF K[</div>
 
         <div class="container">
@@ -2984,17 +3017,12 @@
 
                     <a href="#" class="text-decoration-none"><button class="btn v-btn1">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24"
-
-                                viewBox="0 0 25 24" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24"
+                                fill="none">
 
                                 <path
-
                                     d="M15.5 10L20.0528 7.72361C20.7177 7.39116 21.5 7.87465 21.5 8.61803V15.382C21.5 16.1253 20.7177 16.6088 20.0528 16.2764L15.5 14M5.5 18H13.5C14.6046 18 15.5 17.1046 15.5 16V8C15.5 6.89543 14.6046 6 13.5 6H5.5C4.39543 6 3.5 6.89543 3.5 8V16C3.5 17.1046 4.39543 18 5.5 18Z"
-
-                                    stroke="#333333" stroke-width="2" stroke-linecap="round"
-
-                                    stroke-linejoin="round" />
+                                    stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 
                             </svg>
 
@@ -3008,17 +3036,12 @@
 
                     <a href="#" class="text-decoration-none"><button class="btn v-btn1">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24"
-
-                                viewBox="0 0 25 24" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24"
+                                fill="none">
 
                                 <path
-
                                     d="M15.5 10L20.0528 7.72361C20.7177 7.39116 21.5 7.87465 21.5 8.61803V15.382C21.5 16.1253 20.7177 16.6088 20.0528 16.2764L15.5 14M5.5 18H13.5C14.6046 18 15.5 17.1046 15.5 16V8C15.5 6.89543 14.6046 6 13.5 6H5.5C4.39543 6 3.5 6.89543 3.5 8V16C3.5 17.1046 4.39543 18 5.5 18Z"
-
-                                    stroke="#333333" stroke-width="2" stroke-linecap="round"
-
-                                    stroke-linejoin="round" />
+                                    stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 
                             </svg>
 
@@ -3030,17 +3053,12 @@
 
                     <a href="#" class="text-decoration-none"><button class="btn v-btn1">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24"
-
-                                viewBox="0 0 25 24" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24"
+                                fill="none">
 
                                 <path
-
                                     d="M15.5 10L20.0528 7.72361C20.7177 7.39116 21.5 7.87465 21.5 8.61803V15.382C21.5 16.1253 20.7177 16.6088 20.0528 16.2764L15.5 14M5.5 18H13.5C14.6046 18 15.5 17.1046 15.5 16V8C15.5 6.89543 14.6046 6 13.5 6H5.5C4.39543 6 3.5 6.89543 3.5 8V16C3.5 17.1046 4.39543 18 5.5 18Z"
-
-                                    stroke="#333333" stroke-width="2" stroke-linecap="round"
-
-                                    stroke-linejoin="round" />
+                                    stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 
                             </svg>
 
@@ -3065,15 +3083,11 @@
                         <a href="#" class="text-decoration-none"><button class="btn v-btn1">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24"
-
                                     viewBox="0 0 25 24" fill="none">
 
                                     <path
-
                                         d="M15.5 10L20.0528 7.72361C20.7177 7.39116 21.5 7.87465 21.5 8.61803V15.382C21.5 16.1253 20.7177 16.6088 20.0528 16.2764L15.5 14M5.5 18H13.5C14.6046 18 15.5 17.1046 15.5 16V8C15.5 6.89543 14.6046 6 13.5 6H5.5C4.39543 6 3.5 6.89543 3.5 8V16C3.5 17.1046 4.39543 18 5.5 18Z"
-
                                         stroke="#333333" stroke-width="2" stroke-linecap="round"
-
                                         stroke-linejoin="round" />
 
                                 </svg>
@@ -3089,15 +3103,11 @@
                         <a href="#" class="text-decoration-none"><button class="btn v-btn1">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24"
-
                                     viewBox="0 0 25 24" fill="none">
 
                                     <path
-
                                         d="M15.5 10L20.0528 7.72361C20.7177 7.39116 21.5 7.87465 21.5 8.61803V15.382C21.5 16.1253 20.7177 16.6088 20.0528 16.2764L15.5 14M5.5 18H13.5C14.6046 18 15.5 17.1046 15.5 16V8C15.5 6.89543 14.6046 6 13.5 6H5.5C4.39543 6 3.5 6.89543 3.5 8V16C3.5 17.1046 4.39543 18 5.5 18Z"
-
                                         stroke="#333333" stroke-width="2" stroke-linecap="round"
-
                                         stroke-linejoin="round" />
 
                                 </svg>
@@ -3111,15 +3121,11 @@
                         <a href="#" class="text-decoration-none"><button class="btn v-btn1">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24"
-
                                     viewBox="0 0 25 24" fill="none">
 
                                     <path
-
                                         d="M15.5 10L20.0528 7.72361C20.7177 7.39116 21.5 7.87465 21.5 8.61803V15.382C21.5 16.1253 20.7177 16.6088 20.0528 16.2764L15.5 14M5.5 18H13.5C14.6046 18 15.5 17.1046 15.5 16V8C15.5 6.89543 14.6046 6 13.5 6H5.5C4.39543 6 3.5 6.89543 3.5 8V16C3.5 17.1046 4.39543 18 5.5 18Z"
-
                                         stroke="#333333" stroke-width="2" stroke-linecap="round"
-
                                         stroke-linejoin="round" />
 
                                 </svg>
@@ -3138,7 +3144,8 @@
 
         <div class="container">
 
-            <video class="video"  poster="{{ asset('images/home_image/Videoplayer img.png') }}" controls style="border-radius:7px">
+            <video class="video" poster="{{ asset('images/home_image/Videoplayer img.png') }}" controls
+                style="border-radius:7px">
 
                 <source src="movie.mp4" type="video/mp4">
 
@@ -3184,9 +3191,7 @@
 
             <div class="d-xl-none d-lg-none d-md-none d-flex">
 
-                <img src="{{ asset('images/home_image/slider logo icon-2.1.png') }}" alt=""
-
-                    class="img-fluid">
+                <img src="{{ asset('images/home_image/slider logo icon-2.1.png') }}" alt="" class="img-fluid">
 
             </div>
 
@@ -3203,7 +3208,6 @@
                     <div class="details">
 
                         <div class="d-flex justify-content-center slider-main-img"><img
-
                                 src="{{ asset('images/home_image/Slider image.png') }}" alt="slider-img-1">
 
                         </div>
@@ -3231,7 +3235,6 @@
                     <div class="details">
 
                         <div class="d-flex justify-content-center slider-main-img"><img
-
                                 src="{{ asset('images/home_image/Slider image.png') }}" alt="slider-img-1">
 
                         </div>
@@ -3259,7 +3262,6 @@
                     <div class="details">
 
                         <div class="d-flex justify-content-center slider-main-img"><img
-
                                 src="{{ asset('images/home_image/Slider image.png') }}" alt="slider-img-1">
 
                         </div>
@@ -3287,7 +3289,6 @@
                     <div class="details">
 
                         <div class="d-flex justify-content-center slider-main-img"><img
-
                                 src="{{ asset('images/home_image/Slider image.png') }}" alt="slider-img-1">
 
                         </div>
@@ -3315,7 +3316,6 @@
                     <div class="details">
 
                         <div class="d-flex justify-content-center slider-main-img"><img
-
                                 src="{{ asset('images/home_image/Slider image.png') }}" alt="slider-img-1">
 
                         </div>
@@ -3368,9 +3368,7 @@
 
             <div class="slider-right-img d-flex justify-content-end d-xl-none d-lg-none d-md-none d-flex">
 
-                <img src="{{ asset('images/home_image/slider logo icon-2.2.png') }}" alt=""
-
-                    class="img-fluid">
+                <img src="{{ asset('images/home_image/slider logo icon-2.2.png') }}" alt="" class="img-fluid">
 
             </div>
 
@@ -3578,31 +3576,26 @@
 
     <div class="container accordion">
 
-        <iframe width="100%" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;border-radius:7px" src="https://www.youtube.com/embed/b-K9-RcvE8A?si=CbYV5kW_ePFRjZ2h"
-
-            title="YouTube video player" frameborder="0"
-
+        <iframe width="100%"
+            style="box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;border-radius:7px"
+            src="https://www.youtube.com/embed/b-K9-RcvE8A?si=CbYV5kW_ePFRjZ2h" title="YouTube video player"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
         </iframe>
 
         <div class="mt-3">
 
-            <a href="{{ route('course.register.form') }}" class="course-btn fw-bold"
+            <a href="{{ route('course.register.form') }}" class="course-btn fw-bold" target="_blank">
 
-                target="_blank">
-
-                SM;" BZLNM 
+                SM;" BZLNM
 
             </a>
-            &nbsp; &nbsp; 
-              <a href="{{ route('student_course_purchase_test') }}" class="course-btn fw-bold"
+            &nbsp; &nbsp;
+            <a href="{{ route('student_course_purchase_test') }}" class="course-btn fw-bold" target="_blank">
 
-                target="_blank">
-
-                VeIF;@D IMHGF 
+                VeIF;@D IMHGF
 
             </a>
 
@@ -3639,7 +3632,6 @@
                 <div class="d-flex justify-content-center">
 
                     <div class="alert alert-success text-center joinMessage fs-5"
-
                         style="width: 49.6%;padding:10px;font-family: gujFont2"></div>
 
                 </div>
@@ -3653,7 +3645,6 @@
                 <div class="field" id="searchform">
 
                     <input type="text" id="searchterm" name="mobile_number_or_email"
-
                         placeholder="DMAF., G\AZ S[ .D[., V[0=[; ,BM" />
 
                     <button type="submit" id="search" class="px-2">Join Now</button>
@@ -3689,9 +3680,7 @@
 
 
     @foreach ($events as $event)
-
         <script>
-
             var startDate_{{ $event->id }} = new Date(
 
                 "{{ Carbon::parse($event->event_start_date)->setTimezone('Asia/Kolkata')->toIso8601String() }}").getTime();
@@ -3737,9 +3726,7 @@
 
 
             }, 1000);
-
         </script>
-
     @endforeach
 
 
@@ -3749,42 +3736,42 @@
 
 
     <script>
-
         document.addEventListener("DOMContentLoaded", function() {
 
             const accordionItems = document.querySelectorAll('.accordion-item');
 
-        
+
 
             accordionItems.forEach(function(item) {
 
-              const checkbox = item.querySelector('input[type="checkbox"]');
+                const checkbox = item.querySelector('input[type="checkbox"]');
 
-              checkbox.addEventListener('change', function() {
+                checkbox.addEventListener('change', function() {
 
-                if (this.checked) {
+                    if (this.checked) {
 
-                  // Close all other accordions
+                        // Close all other accordions
 
-                  accordionItems.forEach(function(otherItem) {
+                        accordionItems.forEach(function(otherItem) {
 
-                    if (otherItem !== item) {
+                            if (otherItem !== item) {
 
-                      otherItem.querySelector('input[type="checkbox"]').checked = false;
+                                otherItem.querySelector('input[type="checkbox"]').checked =
+                                    false;
+
+                            }
+
+                        });
 
                     }
 
-                  });
-
-                }
-
-              });
+                });
 
             });
 
-          });
+        });
 
-    
+
 
         $(document).ready(function() {
 
@@ -3853,7 +3840,6 @@
             });
 
         });
-
     </script>
 
 
@@ -3861,15 +3847,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-
         integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
-
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-
     </script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
@@ -3877,18 +3859,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
     <script src="{{ asset('js/home.js') }}"></script>
-
-
-
-
-
-
-
-
-
-
-
 @endsection
-
-
-

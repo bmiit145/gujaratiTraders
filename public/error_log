@@ -1,2 +1,49 @@
 [23-Apr-2024 16:15:14 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\StudentController::update_student_profile() in /home2/gxtbwjmy/public_html/app/Http/Controllers/StudentController.php on line 74
 [20-May-2024 17:17:09 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\CCAvenueController::decryptResponse() in /home2/gxtbwjmy/public_html/app/Http/Controllers/CCAvenueController.php on line 200
+[15-Aug-2024 00:10:20 America/Boise] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home2/gxtbwjmy/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home2/gxtbwjmy/public_html/public/index.php(47): require_once()
+#1 {main}
+  thrown in /home2/gxtbwjmy/public_html/bootstrap/app.php on line 14
+[15-Aug-2024 00:14:48 America/Boise] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home2/gxtbwjmy/public_html/bootstrap/app.php:14
+Stack trace:
+#0 /home2/gxtbwjmy/public_html/public/index.php(47): require_once()
+#1 {main}
+  thrown in /home2/gxtbwjmy/public_html/bootstrap/app.php on line 14
+[15-Aug-2024 00:15:33 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gxtbwjmy/public_html/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gxtbwjmy/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/gxtbwjmy/public_html/public/index.php on line 34
+[15-Aug-2024 00:15:34 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gxtbwjmy/public_html/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gxtbwjmy/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/gxtbwjmy/public_html/public/index.php on line 34
+[15-Aug-2024 00:15:51 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gxtbwjmy/public_html/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gxtbwjmy/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/gxtbwjmy/public_html/public/index.php on line 34
+[15-Aug-2024 00:16:54 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gxtbwjmy/public_html/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gxtbwjmy/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/gxtbwjmy/public_html/public/index.php on line 34
+[15-Aug-2024 00:17:00 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gxtbwjmy/public_html/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gxtbwjmy/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/gxtbwjmy/public_html/public/index.php on line 34
+[15-Aug-2024 00:21:03 America/Boise] PHP Warning:  require(/home2/gxtbwjmy/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/gxtbwjmy/public_html/public/index.php on line 34
+[15-Aug-2024 00:21:03 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gxtbwjmy/public_html/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gxtbwjmy/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/gxtbwjmy/public_html/public/index.php on line 34
+[15-Aug-2024 00:24:40 America/Boise] PHP Warning:  require(/home2/gxtbwjmy/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/gxtbwjmy/public_html/public/index.php on line 34
+[15-Aug-2024 00:24:40 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gxtbwjmy/public_html/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gxtbwjmy/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/gxtbwjmy/public_html/public/index.php on line 34
+[15-Aug-2024 00:24:41 America/Boise] PHP Warning:  require(/home2/gxtbwjmy/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/gxtbwjmy/public_html/public/index.php on line 34
+[15-Aug-2024 00:24:41 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gxtbwjmy/public_html/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gxtbwjmy/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/gxtbwjmy/public_html/public/index.php on line 34
+[15-Aug-2024 00:30:11 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.28. in /home2/gxtbwjmy/public_html/vendor/composer/platform_check.php on line 24
+[15-Aug-2024 00:30:11 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.28. in /home2/gxtbwjmy/public_html/vendor/composer/platform_check.php on line 24
