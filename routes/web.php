@@ -62,25 +62,8 @@ Route::get('/web_page', function () {
 
 Auth::routes();
 
-Route::get('/python', function () {
-    try {
-        // Fetch the public IP address of the client machine running the Python script
-        $response = Http::get('https://api.ipify.org?format=json');
-        if ($response->successful()) {
-            $publicIp = $response->json('ip');
-
-            // Use the public IP address to check the status of the Python script
-            $pythonStatusResponse = Http::get("http://$publicIp:5056/status");
-            if ($pythonStatusResponse->successful()) {
-                return 'Python script is running.';
-            }
-            return 'Python script is not running.';
-        }
-        return 'Failed to fetch public IP address.';
-    } catch (\Exception $e) {
-        return 'Failed to connect to Python script.';
-    }
-});
+Route::post('/api/python-app', [PythonAppController::class, 'updateIp'])->name('update-ip');
+Route::get('/check-ip', [PythonAppController::class, 'checkIp'])->name('check-ip');
 
 Route::get('/payment', [CCAvenueController::class, 'index']);
 Route::post('/payment/process', [CCAvenueController::class, 'process'])->name('process');
