@@ -65,6 +65,7 @@ Auth::routes();
 
 Route::post('/api/python-app', [PythonAppController::class, 'updateIp'])->name('update-ip');
 Route::get('/check-ip', [PythonAppController::class, 'checkIp'])->name('check-ip');
+Route::get('/not-allow', [PythonAppController::class, 'notAllowPage'])->name('not-allow');
 
 Route::get('/payment', [CCAvenueController::class, 'index']);
 Route::post('/payment/process', [CCAvenueController::class, 'process'])->name('process');

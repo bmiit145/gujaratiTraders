@@ -2485,11 +2485,11 @@
 
                             </div>
 
-                            <a href="#" class="text-decoration-none"><button class="btn offline-class-btn">JW]
+                            {{-- <a href="#" class="text-decoration-none"><button class="btn offline-class-btn">JW]
 
                                     DFlCTL
 
-                                    DF8[ SM, SZM</button></a>
+                                    DF8[ SM, SZM</button></a> --}}
 
                         </div>
 
@@ -2639,23 +2639,23 @@
 
                 <div class="d-flex position-absolute slider-buttons-main">
 
-                    <button class="custom-prev-2">
+                    {{-- <button class="custom-prev-2">
 
                         <img src="{{ asset('images/home_image/Slider-left arrow.png') }}" alt="" width="22px"
                             height="22px">
 
-                    </button>
+                    </button> --}}
 
                 </div>
 
                 <div class="d-flex position-absolute slider-buttons-main-2">
 
-                    <button class="custom-next-2">
+                    {{-- <button class="custom-next-2">
 
                         <img src="{{ asset('images/home_image/slider right arrow.png') }}" alt="" width="22px"
                             height="22px">
 
-                    </button>
+                    </button> --}}
 
                 </div>
 
@@ -2721,12 +2721,12 @@
 
                                     </div>
 
-                                    <a href="#" class="text-decoration-none"><button
+                                    {{-- <a href="#" class="text-decoration-none"><button
                                             class="btn offline-class-btn mb-3">JW]
 
                                             DFlCTL
 
-                                            DF8[ SM, SZM</button></a>
+                                            DF8[ SM, SZM</button></a> --}}
 
                             </div>
 
@@ -2877,21 +2877,21 @@
 
                         <div class="d-flex position-absolute slider-buttons-main">
 
-                            <button class="custom-prev-3">
+                            {{-- <button class="custom-prev-3">
 
                                 <img src="{{ asset('images/home_image/Slider-left arrow.png') }}" alt="">
 
-                            </button>
+                            </button> --}}
 
                         </div>
 
                         <div class="d-flex position-absolute slider-buttons-main-2">
 
-                            <button class="custom-next-3">
+                            {{-- <button class="custom-next-3">
 
                                 <img src="{{ asset('images/home_image/slider right arrow.png') }}" alt="">
 
-                            </button>
+                            </button> --}}
 
                         </div>
 
@@ -2971,7 +2971,7 @@
 
                 </div>
 
-                <div class="col-xl col-lg col-md-4 col-sm-4 col-4">
+                {{-- <div class="col-xl col-lg col-md-4 col-sm-4 col-4">
 
                     <div class="d-flex justify-content-center"><img src="{{ asset('images/home_image/Atsc5.png') }}"
                             alt="" class="img-fluid">
@@ -2980,7 +2980,7 @@
 
                     <div class="atsc-text-content text-center">DFS¢8 :S[d;</div>
 
-                </div>
+                </div> --}}
 
             </div>
 
@@ -3000,7 +3000,7 @@
 
 
 
-    <section class="v-main">
+    {{-- <section class="v-main">
 
         <div class="v-mini-head">,MSM VDFZF 5Z lJÆF; SZ[ K[</div>
 
@@ -3165,7 +3165,7 @@
 
 
 
-    </section>
+    </section> --}}
 
 
 
@@ -3344,21 +3344,21 @@
 
             <div class="d-flex position-absolute buttons-main">
 
-                <button class="custom-prev">
+                {{-- <button class="custom-prev">
 
                     <img src="{{ asset('images/home_image/Slider-left arrow.png') }}" alt="">
 
-                </button>
+                </button> --}}
 
             </div>
 
             <div class="d-flex justify-content-end position-absolute buttons-main-2">
 
-                <button class="custom-next">
+                {{-- <button class="custom-next">
 
                     <img src="{{ asset('images/home_image/slider right arrow.png') }}" alt="">
 
-                </button>
+                </button> --}}
 
             </div>
 
@@ -3470,7 +3470,7 @@
 
 
 
-        <div class="accordion-item">
+        {{-- <div class="accordion-item">
 
             <input type="checkbox" id="accordion4">
 
@@ -3490,7 +3490,7 @@
 
             </div>
 
-        </div>
+        </div> --}}
 
 
 
@@ -3500,7 +3500,7 @@
 
             <label for="accordion5" class="accordion-item-title"><span class="icon"></span>
 
-                <div class="d-flex align-items-baseline"><span class="faq-accordian-number me-3">5.</span>AL• ,MSM ૩
+                <div class="d-flex align-items-baseline"><span class="faq-accordian-number me-3">4.</span>AL• ,MSM ૩
 
                     DlCGF ;]WL XLBJ[ VG[ TD[ ૩ lNJ; H VFJ]\ S[Dm</div>
 
@@ -3522,7 +3522,7 @@
 
             <label for="accordion6" class="accordion-item-title"><span class="icon"></span>
 
-                <div class="d-flex align-items-baseline"><span class="faq-accordian-number me-3">6.</span>VMO,F.G S,F;
+                <div class="d-flex align-items-baseline"><span class="faq-accordian-number me-3">5.</span>VMO,F.G S,F;
 
                     DF\ AL_ S>
 
@@ -3546,7 +3546,7 @@
 
             <label for="accordion7" class="accordion-item-title"><span class="icon"></span>
 
-                <div class="d-flex align-items-baseline"><span class="faq-accordian-number me-3">7.</span>U]HZFT DF\
+                <div class="d-flex align-items-baseline"><span class="faq-accordian-number me-3">6.</span>U]HZFT DF\
 
                     S>
 

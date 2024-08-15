@@ -59,11 +59,40 @@
         window.onload = function() {
             noScreenshot(
                 {
-                    mouseLeave:true,
+                    mouseLeave:false,
                 }
             );
         };
-    </script>  
-
+    </script>
+    
 @endsection
+
+@push('scripts')
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+<script>
+$(document).ready(function() {
+    function checkIpStatus() {
+        $.ajax({
+            url: '{{ route('check-ip') }}',
+            type: 'GET',
+            success: function(response) {
+                console.log(response.allowed); // Log response for debugging
+                if (!response.allowed) {
+                    window.location.href = '/not-allow';
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error('Error checking IP status:', error);
+            }
+        });
+    }
+
+    // Initial request
+    checkIpStatus();
+
+    // Subsequent requests every 50 seconds
+    setInterval(checkIpStatus, 50000); // 50 seconds
+});
+</script>
+@endpush
 

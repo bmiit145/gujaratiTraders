@@ -29,29 +29,29 @@ return [
     //     'language' => env('INDIPAY_LANGUAGE', 'EN'),
     // ],
     
-    'ccavenue' => [
-        'merchantId'  => '3475898',
-        'accessCode'  => 'AVPL87LE16BH99LPHB',
-        'workingKey' => '8E20420002E1324E6F7A250A70E3AC77',
+    // 'ccavenue' => [
+    //     'merchantId'  => '3475898',
+    //     'accessCode'  => 'AVPL87LE16BH99LPHB',
+    //     'workingKey' => '8E20420002E1324E6F7A250A70E3AC77',
 
-        // Should be route address for url() function
-        'redirectUrl' => url('indipay/response'),
-        'cancelUrl' => url('payment/cancel'),
+    //     // Should be route address for url() function
+    //     'redirectUrl' => env('CC_AVENUE_REDIRCTURL', url('paymetnt/response')),
+    //     'cancelUrl' => env('PAYU_CANCEL_URL', url('paymetnt/cancel')),
 
-        'mode' => 'secure',
+    //     'mode' => 'secure',
 
-        'currency' => 'INR',
-        'language' => 'EN',
-    ],
+    //     'currency' => 'INR',
+    //     'language' => 'EN',
+    // ],
 
     'payumoney' => [                         // PayUMoney Parameters
         'merchantKey'  => env('PAYU_MERCHANT_KEY', ''),
         'salt'  => env('PAYU_MERCHANT_SALT', ''),
         'workingKey' => env('PAYU_WORKING_KEY', ''),
         
-        'successUrl' => env('PAYU_SUCCESS_URL',  url('paymetnt/response')),
-        'failureUrl' => env('PAYU_FAILURE_URL', url('paymetnt/cancel')),
-        'cancelUrl' => env('PAYU_CANCEL_URL', url('paymetnt/cancel')),
+        'successUrl' => env('PAYU_SUCCESS_URL',  'paymetnt/response'),
+        'failureUrl' => env('PAYU_FAILURE_URL', 'paymetnt/cancel'),
+        'cancelUrl' => env('PAYU_CANCEL_URL', 'paymetnt/cancel'),
 
         'currency' => 'INR',
         'language' => 'EN',

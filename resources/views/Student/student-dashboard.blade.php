@@ -416,17 +416,7 @@
 
     <script src="{{ asset('js/script.js') }}"></script>
 
-    
-    <script>
-        
-        document.addEventListener('keydown', function(event) {
-  if (event.metaKey && event.key === 'g') {
-    event.preventDefault();
-    console.log('Ctrl+G is disabled on this page.');
-  }
-});
-    </script>
-
+    @stack('scripts')
 </body>
 
 </html>

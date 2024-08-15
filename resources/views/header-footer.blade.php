@@ -240,6 +240,56 @@
 
                     <ul class="navbar-nav d-flex ms-auto align-items-center">
 
+                        <style>
+                            /* styles.css */
+
+                            /* Style for the nav link to remove default styling */
+                            .nav-link {
+                                text-decoration: none;
+                            }
+
+                            /* Style for the button */
+                            .purchase-course-btn {
+                                background-color: #28a745;
+                                /* Bootstrap success color */
+                                color: white;
+                                border: none;
+                                border-radius: 5px;
+                                /* Rounded corners */
+                                padding: 10px 20px;
+                                /* Padding inside the button */
+                                font-size: 16px;
+                                /* Font size */
+                                font-weight: bold;
+                                /* Bold text */
+                                cursor: pointer;
+                                /* Pointer cursor on hover */
+                                transition: background-color 0.3s, transform 0.3s;
+                                /* Smooth transition for hover effects */
+                            }
+
+                            /* Hover effect for the button */
+                            .purchase-course-btn:hover {
+                                background-color: #218838;
+                                Darker green for hover transform: scale(1.05);
+                                /* Slightly enlarge the button */
+                            }
+
+                            /* Focus effect for the button */
+                            .purchase-course-btn:focus {
+                                outline: none;
+                                /* Remove default focus outline */
+                                box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+                                /* Add a green shadow */
+                            }
+                        </style>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('course.register.form') }}">
+                                <button class="purchase-course-btn">Purchase Course</button>
+                            </a>
+                        </li>
+
                         <li class="nav-item">
 
                             <a class="nav-link nav_items" href="{{ route('home') }}">Home</a>
@@ -867,15 +917,17 @@
 
                             <a href="#" class="text-decoration-none footer-item-1">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="footer-icon">
-                                <path
-                                    d="M12 2C8.13401 2 5 5.13401 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13401 15.866 2 12 2ZM12 11.5C10.6193 11.5 9.5 10.3807 9.5 9C9.5 7.61929 10.6193 6.5 12 6.5C13.3807 6.5 14.5 7.61929 14.5 9C14.5 10.3807 13.3807 11.5 12 11.5Z"
-                                    stroke="#0C9146" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" class="footer-icon">
+                                    <path
+                                        d="M12 2C8.13401 2 5 5.13401 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13401 15.866 2 12 2ZM12 11.5C10.6193 11.5 9.5 10.3807 9.5 9C9.5 7.61929 10.6193 6.5 12 6.5C13.3807 6.5 14.5 7.61929 14.5 9C14.5 10.3807 13.3807 11.5 12 11.5Z"
+                                        stroke="#0C9146" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
 
                                 320, silver Trade centre,
                                 Opp utran power house,
-                                Mota varachha surat - 394105    
+                                Mota varachha surat - 394105
 
                             </a>
 

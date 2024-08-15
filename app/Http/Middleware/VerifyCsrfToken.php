@@ -14,5 +14,6 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         '/payment/response',
         '/payment/cancel',
+        '/api/python-app'
     ];
 }

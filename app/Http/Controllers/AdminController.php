@@ -808,7 +808,7 @@ class AdminController extends Controller
     public function store_upcoming_event(Request $request){
 
 
-
+// dd($request->all());
         $validator = Validator::make($request->all(), [
 
             'event_name' => 'required|string|max:255',
@@ -820,7 +820,8 @@ class AdminController extends Controller
             'event_location' => 'required|string|max:255',
 
             'event_description' => 'nullable|string',
-
+            
+            'event_registered_limit' => 'required|string|max:255',
         ], [
 
             'event_start_date.required' => 'The start date is required.',
@@ -873,6 +874,8 @@ class AdminController extends Controller
 
         $event->is_delete = 1;
 
+        $event->event_registered_limit = $request->event_registered_limit;
+
         $event->save();
 
     
@@ -915,6 +918,8 @@ class AdminController extends Controller
 
             'event_description' => 'nullable|string',
 
+            'total_registered_users' => 'required|string|max:255',
+
         ], [
 
             'event_end_date.after_or_equal' => 'The event end date must be after or equal to the event start date.',
@@ -942,6 +947,8 @@ class AdminController extends Controller
         $event->event_description = $request->event_description;
 
         $event->is_delete = 1;
+
+        $event->total_registered_users = $request->total_registered_users;
 
         $event->update();
 

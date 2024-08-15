@@ -16,5 +16,7 @@ class Event extends Model
         'event_location',
         'event_description',
         'is_delete',
+        'total_registered_users',
+        'event_registered_limit',
     ];
 }
