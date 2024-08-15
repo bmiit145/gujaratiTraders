@@ -1,0 +1,141 @@
+.login-main-row {
+    height: 100vh;
+}
+
+.side-login-img-main-div {
+    position: relative;
+}
+
+.side-login-img-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 25px;
+}
+
+.login-right {
+    border-radius: 20px 0 0 20px;
+    background-color: #fff;
+    height: 100vh;
+    position: relative;
+}
+
+.login-right-main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-inputs {
+    background-color: #ccccccaf;
+    border-radius: 8px;
+    padding: 10px;
+    color: #666;
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.forget-pass {
+    text-decoration: none;
+    color: #109246;
+    font-weight: 500;
+}
+
+.login-heading {
+    color: #1E1E1E;
+    font-family: Archivo;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.login-caption {
+    color: #6A6E83;
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.3%;
+}
+
+.input-labels-login {
+    color: #1E1E1E;
+    font-family: Archivo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 13px;
+}
+
+.email-main{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.password-main{
+    margin-bottom: 20px;
+}
+
+.login-btn{
+    margin-top: 40px;
+}
+
+@media screen and (max-width:1600px) {
+    .login-right-main {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .login-right-main {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .side-login-img-main-div {
+        position: relative;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .side-login-img-main-div {
+        position: relative;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .side-login-img-main-div {
+        position: relative;
+        height: 40%;
+    }
+
+    .login-right {
+        border-radius: 0px 0 0 0px;
+        background-color: #fff;
+        height: 100vh;
+    }
+}

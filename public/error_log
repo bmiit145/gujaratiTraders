@@ -1,0 +1,2 @@
+[23-Apr-2024 16:15:14 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\StudentController::update_student_profile() in /home2/gxtbwjmy/public_html/app/Http/Controllers/StudentController.php on line 74
+[20-May-2024 17:17:09 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\CCAvenueController::decryptResponse() in /home2/gxtbwjmy/public_html/app/Http/Controllers/CCAvenueController.php on line 200

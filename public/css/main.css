@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.add-btn-studet-list {
+    color: #fff;
+    background-color: #109226;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 7px;
+}
+
+.add-student-submit-btn {
+    background-color: #FF971D;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+/* video list */
+
+.upload-video-btn {
+    background-color: #FF971D;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.view-fullsize-video-btn {
+    background-color: #FF971D;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+}
+
+.view-comments {
+    border: none;
+    background: transparent;
+    font-weight: 500;
+}
+
+.view-comments:hover {
+    border: none;
+    background: transparent;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    transition-duration: 1s all;
+}
+
+/* video list */
+
+
+
+/* Upload Video */
+
+.upload-video {
+    background-color: #FF971D;
+    color: white;
+}
+
+
+.upload-video-btn {
+    background-color: #FF971D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.upload-video-form:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #FF971D;
+    outline: 0;
+    box-shadow: none;
+}
+
+/* Upload Video */
